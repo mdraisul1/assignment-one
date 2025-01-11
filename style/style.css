@@ -390,7 +390,7 @@ th,td{
     background: #C6E4D6;
 }
 
-form input{
+.donate-form input{
     width: 70%;
     display: block;
     margin: 0 auto;
@@ -415,10 +415,60 @@ form input{
 }
 
 
+/* newsletter-section style  */
+.newsletter-section{
+    padding: 50px 150px;
+    align-items: center;
+    text-align: center;
+    background: #C6E4D6;
+    border-radius: 12px;
+}
+.newsletter-section h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--color-text);
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.newsletter-section p{
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--color-text);
+    margin-bottom: 20px;
+}
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 5px;
+}
+.newsletter-form input[type="email"]{
+    flex: 1;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #ccc;
+    outline: none;
+    border-radius: 6px 0 0 6px;
+}
+.newsletter-btn{
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid var(--color-border);
+    background: #006A50;
+    color: var(--color-bg);
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 0 7px 7px 0;
+}
 
-
-
-
+.newsletter-section span{
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
 
 
 
