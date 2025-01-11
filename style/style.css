@@ -97,6 +97,26 @@ nav {
 }
 
 
+/* pillars-section style  */
+.pillars-section{
+    padding: 70px 0px;
+}
+.card-section{
+    display: flex;
+    padding-top: 30px;
+}
+
+.card-one{
+    width: 25%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card-one .icon img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 12px;
+}
 
 
 
