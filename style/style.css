@@ -140,7 +140,8 @@ nav {
 
 /* future-section style  */
 .future-section{
-    padding: 50px 0px;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 .future-section h2{
     font-size: 40px;
@@ -196,6 +197,59 @@ nav {
     cursor: pointer;
     margin-top: 15px;
 }
+
+
+/* testimonial-section style  */
+.testimonial-section{
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+.quote{
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    margin-bottom: 16px;
+    position: relative;
+    z-index: 1;
+}
+.quote-icon {
+    font-size: 100px;
+    position: absolute;
+    color: #999;
+    left: -7px;
+    top: 29px;
+    z-index: -1;
+}
+.author{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.disgination{
+    font-size: 14px;
+    line-height: 24px;
+    color: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
