@@ -101,15 +101,22 @@ nav {
 .pillars-section{
     padding: 70px 0px;
 }
+.pillars-section h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--color-text);
+    margin-bottom: 20px;    
+}
 .card-section{
     display: flex;
     padding-top: 30px;
+    gap: 20px;
 }
 
 .card-one{
     width: 25%;
     background: #fff;
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
 }
 .card-one .icon img {
@@ -118,5 +125,15 @@ nav {
     margin-bottom: 12px;
 }
 
+.card-one .pillars-content h2{
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--color-text);
+    margin-bottom: 10px;
+}
 
+.card-one .pillars-content p{
+    font-size: 16px;
+    line-height: 24px;
+}
 
